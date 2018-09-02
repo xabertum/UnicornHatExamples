@@ -27,7 +27,7 @@ for y in range(height):
 
 for y in range(height):
   for x in range(width):
-    unicorn.set_pixel(-x,y,0,0,0)
+    unicorn.set_pixel(y,x,0,0,0)
     unicorn.show()
     time.sleep(0.05)
 
